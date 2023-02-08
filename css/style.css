@@ -12,7 +12,65 @@ img{
     max-width: 100%;
 }
 
+/* header */
+
+header{
+    display: flex;
+    background-color: #F66601;
+    justify-content: center;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 80;
+}
+
+.head{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 25%;
+    align-items: center;
+}
+
+li{
+    padding: 4px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.end{
+    justify-content: flex-end;
+}
+
+.center{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(../img/boolean-logo.png);
+    width: 30%;
+    padding: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+
+}
+
+/* main */
 main{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
