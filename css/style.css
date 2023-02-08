@@ -70,6 +70,7 @@ a{
 /* main */
 main{
     margin-top: 100px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,3 +149,40 @@ main{
     z-index: 1;
 }
 
+/* footer */
+
+footer{
+    display: flex;
+    background-color: #1A1A1A;
+    justify-content: center;
+}
+
+.down{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0%;
+}
+
+h2, h3{
+    color: #fff;
+
+}
+
+h3{
+    text-align: center;
+}
+.tro{
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.no{
+    padding-left: 0;
+}
+
+.so{
+    font-size: x-large;
+}
