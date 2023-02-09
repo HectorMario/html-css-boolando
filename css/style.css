@@ -142,7 +142,7 @@ main{
 }
 
 .ima:hover .back{
-    display: block;
+    display: inline-block;
 }
 
 /* footer */
